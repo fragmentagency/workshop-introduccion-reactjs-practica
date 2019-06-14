@@ -6,46 +6,63 @@ const modules = [
         title: 'Fragment + Vasava',
       },
       {
-        title: 'Sub 2',
+        title: 'ReactJS? UIs interactivas',
       },
       {
-        title: 'Sub 3',
-      },
-    ],
-  },
-  {
-    title: 'Test 2',
-    submodules: [
-      {
-        title: 'Sub 1',
+        title: 'Componentes',
       },
       {
-        title: 'Sub 2',
+        title: 'JSX → const element = <h1>\'sup!</h1>;',
       },
     ],
   },
   {
-    title: 'Test 3',
+    title: 'Practicando',
     submodules: [
       {
-        title: 'Sub 1',
+        title: 'Empezando un (mini)proyecto',
       },
       {
-        title: 'Sub 2',
+        title: 'Un... botón!',
       },
       {
-        title: 'Sub 3',
-      },
-      {
-        title: 'Sub 4',
+        title: 'Y otro, con callback',
       },
     ],
   },
   {
-    title: 'Thanks',
+    title: 'Todo',
     submodules: [
       {
-        title: 'i tal...',
+        title: 'Una lista con elementos',
+      },
+      {
+        title: 'Y un input "controlled"',
+      },
+      {
+        title: 'Añadiendo items',
+      },
+    ],
+  },
+  {
+    title: 'Programando el (mini)proyecto',
+    submodules: [
+      {
+        title: 'Hacemos grupos',
+      },
+      {
+        title: 'Planteamiento',
+      },
+      {
+        title: 'Dudas',
+      },
+    ],
+  },
+  {
+    title: 'Gracias',
+    submodules: [
+      {
+        title: 'Esperemos que os haya gustado',
       },
     ],
   },
