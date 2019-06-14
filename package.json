@@ -1,0 +1,14 @@
+{
+  "name": "workshop2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "watch": "nodemon -e scss -x \"npm run compile\"",
+    "compile": "node-sass --include-path scss main.scss main.css"
+  }
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('fonts/GTAmerica-ExtendedRegular.eot');
+  src: url('fonts/GTAmerica-ExtendedRegular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/GTAmerica-ExtendedRegular.woff2') format('woff2'),
+      url('fonts/GTAmerica-ExtendedRegular.woff') format('woff'),
+      url('fonts/GTAmerica-ExtendedRegular.ttf') format('truetype'),
+      url('fonts/GTAmerica-ExtendedRegular.svg#GTAmerica-ExtendedRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('fonts/GTAmerica-ExtendedMedium.eot');
+  src: url('fonts/GTAmerica-ExtendedMedium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/GTAmerica-ExtendedMedium.woff2') format('woff2'),
+      url('fonts/GTAmerica-ExtendedMedium.woff') format('woff'),
+      url('fonts/GTAmerica-ExtendedMedium.ttf') format('truetype'),
+      url('fonts/GTAmerica-ExtendedMedium.svg#GTAmerica-ExtendedMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  margin: 0;
+  border: 0;
+  font-family: GTAmerica, Arial, sans-serif;
+  background: #FD6953;
+  font-size: 16px;
+}
+
+.app {
+  height: 100vh;
+  .progress-indicator{
+    position: absolute;
+    height: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transition: width 0.6s ease-out;
+  }
+  .module-info{
+    padding: 0 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    h2{
+      font-size: 1.25rem;
+      margin: 0;
+      font-weight: normal;
+    }
+    h1{
+      font-size: 5rem;
+      margin: 10px 0 30px 0;
+    }
+    button{
+      border: 2px solid #fff;
+      padding: 10px 40px;
+      text-transform: uppercase;
+      outline: none;
+      background: none;
+      font-size: 1rem;
+      color: #fff;
+      cursor: pointer;
+      transition: opacity 0.4s ease-in;
+      &:hover{
+        background: #fff;
+        color: #FD6953;
+      }
+      &.disabled{
+        pointer-events: none;
+        opacity: 0.4;
+      }
+    }
+  }
+}
