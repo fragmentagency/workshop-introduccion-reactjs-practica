@@ -6,10 +6,4 @@ Para futuros eventos puedes unirte a nuestro grupo de Meetup en este enlace [htt
 
 ## Compilando SASS
 
-Para compilar SASS de forma rápida hemos instalado el módulo `node-sass` globalmente:
-
-```
-sudo npm install -g node-sass
-```
-
-Y posteriomente, llamamos a `yarn compile` para generar el archivo `main.css`.
+Para compilar SASS de forma rápida usamos `node-sass` y `nodemon`. Puedes ejecutarlo con el script `yarn watch` o `yarn compile`.
