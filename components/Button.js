@@ -3,9 +3,16 @@ class Button extends React.Component {
     const {
       callback,
       active,
+      title,
+      primary,
     } = this.props
     return (
-      <button className={`${active ? '' : 'disabled'}`} onClick={callback}>Siguiente</button>
+      <button
+        className={`${active ? '' : 'disabled'} ${primary ? 'primary' : ''}`}
+        onClick={callback}
+      >
+        {title}
+      </button>
     )
   }
 }

@@ -57,22 +57,30 @@ body{
       margin: 10px 0 30px 0;
     }
     button{
-      border: 2px solid #fff;
+      border: 0;
       padding: 10px 40px;
-      text-transform: uppercase;
+      font-size: 0.9rem;
       outline: none;
       background: none;
-      font-size: 1rem;
       color: #fff;
       cursor: pointer;
       transition: opacity 0.4s ease-in;
       &:hover{
-        background: #fff;
-        color: #FD6953;
+        text-decoration: underline;
       }
       &.disabled{
         pointer-events: none;
         opacity: 0.4;
+      }
+      &.primary{
+        text-transform: uppercase;
+        font-size: 1rem;
+        border: 2px solid #fff;
+        &:hover{
+          text-decoration: none;
+          background: #fff;
+          color: #FD6953;
+        }
       }
     }
   }
